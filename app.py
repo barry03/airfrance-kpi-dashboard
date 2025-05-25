@@ -12,6 +12,20 @@ df_d0_global = pd.read_csv("data/kpi1_ponctualite_globale.csv")
 df_kpi2 = pd.read_csv("data/kpi2_retard_moyen_par_avion.csv")
 df_kpi3 = pd.read_csv("data/kpi3_causes_retard.csv")
 
+# KPI 1 – Résumé global
+st.subheader("Résumé global de la ponctualité D0")
+
+# Extraction des valeurs
+total_vols = df_d0_global['total_flights'].iloc[0]
+vols_ponctuels = df_d0_global['on_time_flights'].iloc[0]
+taux_ponctualite = df_d0_global['pct_on_time'].iloc[0]
+
+col1, col2, col3 = st.columns(3)
+col1.metric("Total vols", f"{total_vols:,}".replace(",", " "))
+col2.metric("Vols ponctuels", f"{vols_ponctuels:,}".replace(",", " "))
+col3.metric("Taux de ponctualité", f"{taux_ponctualite:.2f} %")
+
+
 # KPI 1 – Ponctualité mensuelle
 st.subheader("Évolution mensuelle de la ponctualité D0")
 

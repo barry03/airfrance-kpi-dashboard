@@ -66,10 +66,6 @@ streamlit run app.py
 
 ##  Déploiement en ligne
 
-Le dashboard est aussi disponible via Streamlit Cloud :
-
-## Accès en ligne au dashboard
-
 Le dashboard interactif est disponible en ligne via Streamlit Cloud :
 
 [https://airfrance-kpi-dashboard-p3tp2nkxp3lxbefpjthikv.streamlit.app](https://airfrance-kpi-dashboard-p3tp2nkxp3lxbefpjthikv.streamlit.app)

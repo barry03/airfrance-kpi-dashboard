@@ -23,7 +23,7 @@ airfrance-kpi-dashboard/
 │   ├── kpi2_retard_moyen_par_avion.csv
 │   └── kpi3_causes_retard.csv
 ├── docs/
-│   ├── instructions_airfrance.docx     # Consignes officielles reçues
+│   ├── instructions_airfrance.docx     # Consignes initiales reçues
 │   └── dashboard_export.pdf            # Résultat visuel final
 └── .gitignore               # Fichiers à ignorer (.DS_Store, .vscode, etc.)
 ```

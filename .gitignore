@@ -1,0 +1,21 @@
+# Fichiers Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Environnement virtuel
+venv/
+.env/
+
+# Dossiers spécifiques Streamlit
+.streamlit/secrets.toml
+
+*.db
+*.duckdb
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log

@@ -68,7 +68,7 @@ streamlit run app.py
 
 Le dashboard est aussi disponible via Streamlit Cloud :
 
-## 🌐 Accès en ligne au dashboard
+## Accès en ligne au dashboard
 
 Le dashboard interactif est disponible en ligne via Streamlit Cloud :
 

@@ -75,3 +75,7 @@ Le dashboard interactif est disponible en ligne via Streamlit Cloud :
 ##  Auteur
 
 Projet réalisé par Djoulde Barry dans le cadre d’un processus de recrutement chez Air France.
+
+## 🙏 Remerciements
+
+Merci à l’équipe Air France pour cette étude de cas riche et pertinente.

@@ -72,7 +72,7 @@ Le dashboard interactif est disponible en ligne via Streamlit Cloud :
 [https://airfrance-kpi-dashboard-p3tp2nkxp3lxbefpjthikv.streamlit.app](https://airfrance-kpi-dashboard-p3tp2nkxp3lxbefpjthikv.streamlit.app)
 
 
-##  Auteur
+## 👨‍💻 Auteur
 
 Projet réalisé par Djoulde Barry dans le cadre d’un processus de recrutement chez Air France.
 

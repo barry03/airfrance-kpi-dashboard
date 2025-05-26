@@ -12,20 +12,21 @@ Le projet vise à analyser les données opérationnelles de vols (fichiers CSV e
 
 ## Structure du projet
 
-```bash
-airfrance-kpi-dashboard/
-├── app.py                    # Application Streamlit principale
-├── extraction_kpis.sql       # Requêtes SQL utilisées pour produire les KPI
-├── requirements.txt          # Dépendances Python (dont streamlit, pandas...)
-├── data/                     # Fichiers CSV extraits de la base DuckDB
-│   ├── kpi1_ponctualite_globale.csv
-│   ├── kpi1_ponctualite_mensuelle.csv
-│   ├── kpi2_retard_moyen_par_avion.csv
-│   └── kpi3_causes_retard.csv
-├── docs/
-│   ├── instructions_airfrance.docx     # Consignes initiales reçues
-│   └── dashboard_export.pdf            # Résultat visuel final
-└── .gitignore               # Fichiers à ignorer (.DS_Store, .vscode, etc.)
+```mermaid
+graph TD
+  A[📁 airfrance-kpi-dashboard]
+  A --> B[📄 app.py]
+  A --> C[📄 extraction_kpis.sql]
+  A --> D[📄 requirements.txt]
+  A --> E[📁 data]
+  E --> E1[kpi1_ponctualite_globale.csv]
+  E --> E2[kpi1_ponctualite_mensuelle.csv]
+  E --> E3[kpi2_retard_moyen_par_avion.csv]
+  E --> E4[kpi3_causes_retard.csv]
+  A --> F[📁 docs]
+  F --> F1[instructions_airfrance.docx]
+  F --> F2[dashboard_export.pdf]
+  A --> G[📄 .gitignore]
 ```
 
 ## Outils utilisés

@@ -1,4 +1,4 @@
-# airfrance-kpi-dashboard
+# Airfrance-kpi-dashboard
 
 Dashboard interactif développé pour visualiser les KPI de ponctualité à partir des données de vols fournies dans le cadre du processus de recrutement Air France.
 

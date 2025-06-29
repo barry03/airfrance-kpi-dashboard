@@ -2,13 +2,10 @@
 Dashboard interactif développé pour visualiser les KPI de ponctualité à partir des données de vols fournies dans le cadre du processus de recrutement Air France.
 ## Objectifs
 Le projet vise à analyser les données opérationnelles de vols (fichiers CSV et JSON fournis) et restituer les KPI suivants :
-
 - **KPI 1** : Taux de ponctualité au départ (D0)
 - **KPI 2** : Retard moyen à l’arrivée par type d’avion
 - **KPI 3** : Principales causes de retard sur les vols nationaux
-
 ## Structure du projet
-
 ```mermaid
 graph TD
   A[📁 airfrance-kpi-dashboard]
@@ -25,9 +22,7 @@ graph TD
   F --> F2[dashboard_export.pdf]
   A --> G[📄 .gitignore]
 ```
-
 ## Outils utilisés
-
 -  Streamlit (dashboard)
 
 -  Pandas / Plotly / Seaborn (analyse & visualisation)

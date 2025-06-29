@@ -1,9 +1,6 @@
 # airfrance-kpi-dashboard
-
 Dashboard interactif développé pour visualiser les KPI de ponctualité à partir des données de vols fournies dans le cadre du processus de recrutement Air France.
-
 ## Objectifs
-
 Le projet vise à analyser les données opérationnelles de vols (fichiers CSV et JSON fournis) et restituer les KPI suivants :
 
 - **KPI 1** : Taux de ponctualité au départ (D0)
